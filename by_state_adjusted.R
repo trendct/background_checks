@@ -4,14 +4,14 @@ library(seasonal)
 library(tidyr)
 library(ggplot2)
 
-blah <- ts(ct_month[,2],frequency=12,start=c(1998,11))
-m <- seas(blah)
-plot(blah)
+ct_seas <- ts(ct_month[,2],frequency=12,start=c(1998,11))
+m <- seas(ct_seas)
+plot(ct_seas)
 series(m, "forecast.forecasts")
 write.csv(m, "data/m.csv")
 whatwhat <- final(m)
 
-dfct <- as.data.frame(blah)
+dfct <- as.data.frame(ct_seas)
 
 ct_months_only <- ct_month$Month
 
