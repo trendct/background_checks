@@ -8,3 +8,4 @@ Check the Trend CT [repo](https://github.com/trendct/background_checks/) for the
 There are many caveats to the data, but the basic thing to take away is that a background check does not necessarily mean a gun sale. The [Buzzfeed repo](https://github.com/BuzzFeedNews/nics-firearm-background-checks) has more details.
 
 This [analysis](http://trendct.github.io/background_checks/) will go over the process used to put together [the story](http://trendct.org/2015/12/14/increase-in-gun-purchases-triggered-by-connecticut-state-legislation/). In short, the background checks were normalized for annual population by state, adjusted for seasonality, and then charted.
+Jack is cool
